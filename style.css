@@ -1,0 +1,86 @@
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+
+  }
+
+  .navbar{
+    position:  fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+  }
+
+  #products-list{
+    margin-top: 70px;
+  }
+  .pagination-block {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+  }
+
+  body{
+    background: #bdcee3;;
+  }
+
+  .card{
+    box-shadow: 0px 5px 27px 10px rgba(0, 0, 0, 0.2);
+    color: #1B3764;
+    transition: 0.5s;
+  }
+  .card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+  .Table-title{
+    color: #1B3764
+  }
+
+  .btn-update{
+    background-color: #385e9a;
+    color: white
+  }
+  .btn-update:hover{
+    background-color: #174a9d;
+    color: white
+  }
+  .btn-delete{
+    background-color: #FE4164;
+    color: white;
+  }
+  .btn-delete:hover{
+    background-color:  #f11e44;
+    color: white
+  }
+
+
+  #prev-page, #next-page{
+    background-color: #FFCA42;
+  }
+
+  .modal{
+    background-color: #bdcee3;
+  }
+
+  #add-product-btn, .save-changes-btn{
+    background-color: #FFCA42;
+    color: black;
+  }
+  .btn-update:focus{
+    background-color: #385e9a;
+    color: white
+  }
+
+  @media screen and (max-width: 446px){
+    #products-list{
+      margin-top: 100px;
+    }
+  }
+

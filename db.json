@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": 14,
+      "name": "Jessica",
+      "lastname": "Croud",
+      "number": "1111",
+      "weeklyKPI": "600",
+      "monthlyKPI": "1200"
+    },
+    {
+      "id": 15,
+      "name": "Kuban",
+      "lastname": "Kadyraliev",
+      "number": "119191919191",
+      "weeklyKPI": "199",
+      "monthlyKPI": "229"
+    },
+    {
+      "name": "Imran",
+      "lastname": "Ahmetov",
+      "number": "0709-33-34-44",
+      "weeklyKPI": "400",
+      "monthlyKPI": "1500",
+      "id": 16
+    },
+    {
+      "id": 17,
+      "name": "Monica",
+      "lastname": "Beluci",
+      "number": "77777777",
+      "weeklyKPI": "500",
+      "monthlyKPI": "1500"
+    },
+    {
+      "name": "Jessica",
+      "lastname": "Croud",
+      "number": "1111",
+      "weeklyKPI": "500",
+      "monthlyKPI": "1200",
+      "id": 18
+    },
+    {
+      "name": "Kuban",
+      "lastname": "Kadyraliev",
+      "number": "119191919191",
+      "weeklyKPI": "199",
+      "monthlyKPI": "229",
+      "id": 19
+    },
+    {
+      "name": "Imran",
+      "lastname": "Ahmetov",
+      "number": "0709-33-34-44",
+      "weeklyKPI": "400",
+      "monthlyKPI": "1500",
+      "id": 20
+    },
+    {
+      "name": "Jessica",
+      "lastname": "Croud",
+      "number": "1111",
+      "weeklyKPI": "500",
+      "monthlyKPI": "1200",
+      "id": 22
+    },
+    {
+      "name": "Kuban",
+      "lastname": "Kadyraliev",
+      "number": "119191919191",
+      "weeklyKPI": "199",
+      "monthlyKPI": "229",
+      "id": 23
+    },
+    {
+      "id": 24,
+      "name": "Imran",
+      "lastname": "Ahmetov",
+      "number": "0709-33-34-44",
+      "weeklyKPI": "400",
+      "monthlyKPI": "150"
+    },
+    {
+      "id": 25,
+      "name": "Monica",
+      "lastname": "Beluci",
+      "number": "1111111",
+      "weeklyKPI": "500",
+      "monthlyKPI": "1500"
+    },
+    {
+      "name": "kjshfkdshf",
+      "lastname": "5445",
+      "number": "4554",
+      "weeklyKPI": "5454",
+      "monthlyKPI": "545",
+      "id": 26
+    }
+  ]
+}
