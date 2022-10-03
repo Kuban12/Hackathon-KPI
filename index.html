@@ -12,19 +12,32 @@
   <body>
     <!-- navbar start -->
     <nav class="navbar navbar-expand-lg" style="background-color: #1B3764;">
-      <div class="container-fluid">
-        <a class="navbar-brand" style="color: white" href="#">Students KPI List</a>
-        <div  data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
-          <a class="btn " style="background-color: #FFCA42" aria-current="page" href="#"><b>Add student</b></a>
-      </div>
-        <div data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="collapse navbar-collapse"
-                id="navbarNavAltMarkup">
-            
-            </div>
-            <span><h3 class="pageHtml" style="color: white; padding-right: 20px;"></h3></span>
-          <form class="d-flex" role="search">
+      <div class="container-fluid d-flex justify-content-between">
+        <div>
+          <a class="navbar-brand" style="color: white" href="#">Students KPI List</a>
+          <a class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background-color: #FFCA42" aria-current="page" href="#"><b>Add student</b></a>
+        </div>
+          
+      <form class="d-flex" role="search">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpH99JUyxGFZzqswCxCRav5HggQgQ-mzVds2PYEp6oIPezessoJ20E4G58R6ClUl4SSiI&usqp=CAU" style="width: 50px; border-radius: 50%;" alt="error("   
+                class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #1B3764">
+                  <li><h5 class="dropdownTitle">View Type:</h5></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <a class="dropdown-item first-Render"href="#"><b>Cards</b></a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item second-Render"href="#"><b>List</b></a></li>
+                    <li>
+                      <a class="dropdown-item third-Render"href="#"><b>Icons</b></a></li>
+                </ul>
+              </li>
+            </ul>
+                  <span><h5 class="pageHtml" style="color: white; padding-right: 20px;"></h5></span>
             <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Поиск"id="search-inp"> 
-            <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </div>
       </div>
@@ -32,9 +45,10 @@
     <!-- navbar end -->
 
 
+    
+    
 
-
-    <!-- modal -->
+    <!-- modal for add students start-->
     <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -52,25 +66,84 @@
                   <input type="text" id="students-monthly-KPI" placeholder="Monthly KPI" class="mb-2 w-100">
                 </div>
                 <div class="modal-footer">
-                  <button class="btn btn-dark w-100 m-auto" id="add-product-btn">Add student
+                  <button class="btn btn-dark w-100 m-auto" id="add-product-btn" data-bs-dismiss="modal">Add student
                   </button>
-                  <button class="btn btn-dark w-100 m-auto save-changes-btn">Save Changes</button>
+                  <button class="btn btn-dark w-100 m-auto save-changes-btn" data-bs-dismiss="modal">Save Changes</button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- modal end -->
+    <!-- modal for add students end-->
 
+
+
+
+    
+    <!-- modal for add avatar start-->
+    <div class="modal fade " id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Avatars</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+                  <div class="avatarsContainer">
+                    <img src="./Images/Picsart_1.jpg" data-bs-dismiss="modal" alt="error" class="imgAvatar" id="1">
+                    <img src="./Images/Picsart_2.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="2">
+                    <img src="./Images/Picsart_3.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="3">
+                    <img src="./Images/Picsart_4.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="4">
+                    <img src="./Images/Picsart_5.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="5">
+                    <img src="./Images/Picsart_6.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="6">
+                    <img src="./Images/Picsart_7.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="7">
+                    <img src="./Images/Picsart_8.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="8">
+                    <img src="./Images/Picsart_9.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="9">
+                    <img src="./Images/Picsart_11.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="11">
+                    <img src="./Images/Picsart_12.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="12">
+                    <img src="./Images/Picsart_13.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="13">
+                    <img src="./Images/Picsart_14.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="14">
+                    <img src="./Images/Picsart_15.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="15">
+                    <img src="./Images/Picsart_16.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="16">
+                    <img src="./Images/Picsart_17.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="17">
+                    <img src="./Images/Picsart_18.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="18">
+                    <img src="./Images/Picsart_19.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="19">
+                    <img src="./Images/Picsart_20.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="20">
+                    <img src="./Images/Picsart_21.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="21">
+                    <img src="./Images/Picsart_22.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="22">
+                    <img src="./Images/Picsart_23.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="23">
+                    <img src="./Images/Picsart_24.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="24">
+                    <img src="./Images/Picsart_25.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="25">
+                    <img src="./Images/Picsart_26.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="26">
+                    <img src="./Images/Picsart_0.jpg"  data-bs-dismiss="modal" alt="error" class="imgAvatar" id="0">
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    <!-- modal for add avatar end-->
 
     <!-- Content start -->
-    <div class="d-flex flex-wrap justify-content-center" id="products-list"></div>
+    <div class="mainContainer d-flex">
+      <div 
+        class="d-flex flex-wrap justify-content-center" id="products-list">
+      </div>
+      <div 
+      class="d-flex flex-column flex-wrap"  id="products-list3">
+    </div>
+      <div 
+        class="d-flex flex-wrap justify-content-center"  id="thirdView">
+      </div>
+      
+    </div>
     <!-- Content end -->
+    
 
-
+    
     <!-- pagination block -->
     <div class="pagination-block m-5">
       <button class="btn" id="prev-page">
-          <a href="#" class="page-link" aria-label="Previous">
+        <a href="#" class="page-link" aria-label="Previous">
               <span aria-hidden="true">&laquo;</span>
           </a>
       </button>

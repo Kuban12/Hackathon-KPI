@@ -4,97 +4,118 @@
       "id": 14,
       "name": "Jessica",
       "lastname": "Croud",
-      "number": "1111",
-      "weeklyKPI": "600",
-      "monthlyKPI": "1200"
+      "number": "+7154-35-53",
+      "weeklyKPI": "6000",
+      "monthlyKPI": "1200",
+      "ava": "./Images/Picsart_3.jpg"
     },
     {
-      "id": 15,
+      "id": 19,
       "name": "Kuban",
       "lastname": "Kadyraliev",
-      "number": "119191919191",
-      "weeklyKPI": "199",
-      "monthlyKPI": "229"
+      "number": "500-500-500",
+      "weeklyKPI": "500",
+      "monthlyKPI": "1800",
+      "ava": "./Images/Picsart_6.jpg"
     },
     {
+      "id": 16,
       "name": "Imran",
       "lastname": "Ahmetov",
-      "number": "0709-33-34-44",
+      "number": "709-33-34-44",
       "weeklyKPI": "400",
       "monthlyKPI": "1500",
-      "id": 16
+      "ava": "./Images/Picsart_12.jpg"
     },
     {
-      "id": 17,
-      "name": "Monica",
-      "lastname": "Beluci",
-      "number": "77777777",
+      "id": 18,
+      "name": "Rayen",
+      "lastname": " Bidziil",
+      "number": "+312-54-44",
       "weeklyKPI": "500",
-      "monthlyKPI": "1500"
+      "monthlyKPI": "120000",
+      "ava": "./Images/Picsart_18.jpg"
     },
     {
-      "name": "Jessica",
-      "lastname": "Croud",
-      "number": "1111",
-      "weeklyKPI": "500",
-      "monthlyKPI": "1200",
-      "id": 18
-    },
-    {
-      "name": "Kuban",
-      "lastname": "Kadyraliev",
-      "number": "119191919191",
-      "weeklyKPI": "199",
-      "monthlyKPI": "229",
-      "id": 19
-    },
-    {
-      "name": "Imran",
-      "lastname": "Ahmetov",
-      "number": "0709-33-34-44",
+      "id": 20,
+      "name": " Iina",
+      "lastname": "Ameyalliv",
+      "number": "+333-34-44",
       "weeklyKPI": "400",
       "monthlyKPI": "1500",
-      "id": 20
+      "ava": "./Images/Picsart_1.jpg"
     },
     {
-      "name": "Jessica",
-      "lastname": "Croud",
-      "number": "1111",
-      "weeklyKPI": "500",
+      "id": 22,
+      "name": " Tamya",
+      "lastname": "Yaxkin",
+      "number": "666-00-11",
+      "weeklyKPI": "5000",
       "monthlyKPI": "1200",
-      "id": 22
+      "ava": "./Images/Picsart_21.jpg"
     },
     {
-      "name": "Kuban",
-      "lastname": "Kadyraliev",
-      "number": "119191919191",
-      "weeklyKPI": "199",
-      "monthlyKPI": "229",
-      "id": 23
+      "id": 23,
+      "name": "Sotoshi",
+      "lastname": "Nakomoto",
+      "number": "20-000",
+      "weeklyKPI": "000000.1",
+      "monthlyKPI": "99,000,000",
+      "ava": "./Images/Picsart_24.jpg"
     },
     {
       "id": 24,
-      "name": "Imran",
-      "lastname": "Ahmetov",
-      "number": "0709-33-34-44",
+      "name": " Yeruti",
+      "lastname": "Sequoyah",
+      "number": "509-565-44",
       "weeklyKPI": "400",
-      "monthlyKPI": "150"
+      "monthlyKPI": "150",
+      "ava": "./Images/Picsart_26.jpg"
     },
     {
       "id": 25,
       "name": "Monica",
-      "lastname": "Beluci",
-      "number": "1111111",
+      "lastname": "Asiri",
+      "number": "456-6465",
       "weeklyKPI": "500",
-      "monthlyKPI": "1500"
+      "monthlyKPI": "1500",
+      "ava": "./Images/Picsart_23.jpg"
     },
     {
-      "name": "kjshfkdshf",
-      "lastname": "5445",
-      "number": "4554",
-      "weeklyKPI": "5454",
-      "monthlyKPI": "545",
-      "id": 26
+      "id": 26,
+      "name": "Jack",
+      "lastname": "Slim",
+      "number": "390-293",
+      "weeklyKPI": "399",
+      "monthlyKPI": "999",
+      "ava": "./Images/Picsart_2.jpg"
+    },
+    {
+      "id": 27,
+      "name": " Naira",
+      "lastname": "Hiawatha",
+      "number": "+868 54 12",
+      "weeklyKPI": "700",
+      "monthlyKPI": "1300",
+      "ava": "./Images/Picsart_7.jpg"
+    },
+    {
+      "id": 28,
+      "name": "sdfls",
+      "lastname": "4974",
+      "number": "9474",
+      "weeklyKPI": "4947",
+      "monthlyKPI": "4947",
+      "ava": "./Images/Picsart_13.jpg"
+    },
+    {
+      "id": 29,
+      "name": "4479",
+      "lastname": "4",
+      "number": "4",
+      "weeklyKPI": "4",
+      "monthlyKPI": "4",
+      "ava": "./Images/Picsart_15.jpg"
     }
   ]
 }

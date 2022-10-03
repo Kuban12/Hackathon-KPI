@@ -3,7 +3,6 @@
     flex-direction: column;
     gap: 5px;
     width: 100%;
-
   }
 
   .navbar{
@@ -12,6 +11,20 @@
     left: 0px;
     right: 0px;
     z-index: 2;
+  }
+  
+
+  .dropdownTitle{
+    color:white;
+    padding-left: 10%;
+  }
+  .dropdown-item{
+    color: white
+  }
+
+
+  .dropdown-item:hover{
+    color:black
   }
 
   #products-list{
@@ -26,8 +39,21 @@
   }
 
   body{
-    background: #bdcee3;;
+    background-color: #bdcee3;
+    animation: render1 3s ease-in-out infinite; 
   }
+
+  @keyframes render1 {
+    0%{
+        background-color: #bdcee3;
+    }
+    50%{
+        background-color: #6c9cd6;
+    }
+    100%{
+        background-color: #bdcee3;
+    }
+} 
 
   .card{
     box-shadow: 0px 5px 27px 10px rgba(0, 0, 0, 0.2);
@@ -77,10 +103,41 @@
     background-color: #385e9a;
     color: white
   }
+  
+  .imgMainAva{
+    width: 50px;
+  }
+  .imgAvatar {
+    width: 20%;
+    margin: 2%;
+    transition: 0.5s;
+  }
+
+  .imgAvatar:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+  .avatarsContainer{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3%;
+  }
+  
+
+  /* .mainContainer{
+    display: flex;
+    justify-content: start;
+  } */
+
+
 
   @media screen and (max-width: 446px){
     #products-list{
       margin-top: 100px;
     }
   }
+
+
 
